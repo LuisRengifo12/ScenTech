@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScenTech</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="menu_contenedor">
+            <div class="enlaces">
+                <a href="anillos.html">Anillos</a>
+                <a href="aretes.html">Aretes</a>
+                <a href="pulseras.html">Pulseras</a>
+                <a href="collares.html">Collares</a>
+            </div>
+            <div class="btn_menu">
+                <i class="fas fa-bars" id="btn_menu"></i>
+            </div>
+            <a class="logo" href="index.html">ScenTech</a>
+            <div class="sub_logo">
+                <p>Accesorios de calidad</p>
+            </div>
+        </nav>
+        <div class="hero__imagen">
+            <div class="contenido-hero">
+                <h2 class="contenido-hero__titulo">Anillos </h2>
+                <p class="contenido-hero__texto">Los anillos de ScenTech son el toque final perfecto para complementar cualquier estilo.
+                     Con diseños exclusivos y materiales de alta calidad, cada anillo está hecho para reflejar tu personalidad y hacerte destacar en cualquier ocasión.
+
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="principal contenedor">
+            <div class="principal__carousel">
+                <ul class="carousel-anillo">
+                    <li class="carousel__elemento"><img class="carousel__img" src="img/anillo_1.jpg" alt=""></li>
+                    <li class="carousel__elemento"><img class="carousel__img" src="img/anillo_2.jpg" alt=""></li>
+                    <li class="carousel__elemento"><img class="carousel__img" src="img/anillo_3.jpg" alt=""></li>
+                    <li class="carousel__elemento"><img class="carousel__img" src="img/anillo_4.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="principal__texto">
+                <h2 class="titulo">Anillos</h2>
+                <p class="texto-principal">Encuentra el diseño que mejor se adapta a ti y lleva contigo una pieza única que destaca por su originalidad y calidad.</p>
+            </div>
+
+        </section>
+        <section class="catalogo">
+            <div class="contenedor">
+                <h2 class="titulo catalogo__titulo">Catalogo</h2>
+                <form action="" class="busqueda">
+                    <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+                </form>
+                <div class="categorias-anillo" id="categorias-anillo">
+                    <a href="#" class="activo">Todos</a>
+                    <a href="#">Mujeres</a>
+                    <a href="#">Hombres</a>
+                    <a href="#">Oro</a>
+                    <a href="#">Plata</a>
+                </div>
+                <div class="grid" id="grid">
+                    <div class="item" data-categoria="mujeres" data-etiquetas="mujeres diamante plata"
+                        data-descripcion="1.- Anillo Acero Dorado con acabados de flores.">
+                        <div class="item__contenido">
+                            <img src="img/Anillo_ScenTech.jpeg" class="img__anillo" alt="">
+                            <h3 class="titulo">Anillo 1</h3>
+                            <p>Anillo Acero Dorado con acabados de flores.</p>
+                            <span>$ 8000</span>
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="mujeres" data-etiquetas="mujeres diamante plata"
+                        data-descripcion="2.- Anillo Acero Dorado">
+                        <div class="item__contenido">
+                            <img src="img/Anillo_ScenTech2.jpeg" class="img__anillo" alt="">
+                            <h3 class="titulo">Anillo 2</h3>
+                            <p>Anillo Acero Dorado</p>
+                            <span>$ 8000</span>
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="mujeres" data-etiquetas="mujeres diamante plata"
+                        data-descripcion="3.- Anillo Acero Negro">
+                        <div class="item__contenido">
+                            <img src="img/anillo_3.jpg" class="img__anillo" alt="">
+                            <h3 class="titulo">Anillo 3</h3>
+                            <p>Anillo Acero Negro</p>
+                            <span>$ 20000</span>
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="mujeres" data-etiquetas="mujeres diamante plata"
+                        data-descripcion="4.- Anillo Acero.">
+                        <div class="item__contenido">
+                            <img src="img/anillo_4.jpg" class="img__anillo" alt="">
+                            <h3 class="titulo">Anillo 4</h3>
+                            <p>Anillo Acero</p>
+                            <span>$ 20000</span>
+                        </div>
+                    </div>
+                   
+                    
+                    
+                    
+
+                </div>
+                <div class="overlay" id="overlay">
+                    <div class="contenedor-img">
+                        <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                        <img src="" alt="">
+                    </div>
+                    <p class="descripcion"></p>
+                </div>
+            </div>            
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <div class="contenido_footer">
+                <h3>Categorias</h3>
+                <div class="footer_categorias">
+                    <a href="anillos.html">Anillos</a>
+                    <a href="aretes.html">Aretes</a>
+                    <a href="pulseras.html">Pulseras</a>
+                    <a href="collares.html">Collares</a>
+                </div>
+            </div>
+            <div class="contenido_footer">
+                <h3>Redes</h3>
+                <div class="footer_redes">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="contenido_footer">
+                <h3>Copyright &copy - Derechos Reservados</h3>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script> 
+    <script src="https://kit.fontawesome.com/45035c67c2.js" crossorigin="anonymous"></script>
+    
+    <script src="js/script_anillo.js"></script>
+    
+</body>
+
+</html>

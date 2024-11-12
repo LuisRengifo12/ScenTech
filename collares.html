@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScenTech</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css" />
+    <link rel="stylesheet" href="css/collares.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="menu_contenedor">
+            <div class="enlaces">
+                <a href="anillos.html">Anillos</a>
+                <a href="aretes.html">Aretes</a>
+                <a href="pulseras.html">Pulseras</a>
+                <a href="collares.html">Collares</a>
+            </div>
+            <div class="btn_menu">
+                <i class="fas fa-bars" id="btn_menu"></i>
+            </div>
+            <a class="logo" href="index.html">ScenTech</a>
+            <div class="sub_logo">
+                <p>Accesorios de calidad</p>
+            </div>
+        </nav>
+        <div class="hero__imagen">
+            <div class="contenido-hero">
+                <h2 class="contenido-hero__titulo">Collares </h2>
+                <p class="contenido-hero__texto">En ScenTech, creemos que un collar no es solo un accesorio, es una declaración de estilo. 
+                    Nuestra colección de collares está diseñada para aquellos que buscan resaltar su belleza con piezas únicas y sofisticadas.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="principal contenedor">
+            <div class="principal__carousel">
+                <ul class="carousel-anillo">
+                    <li class="carousel__elemento"><img class="carousel__img" src="img/Collares1.webp" alt=""></li>
+                    <li class="carousel__elemento"><img class="carousel__img" src="img/Collares2.webp" alt=""></li>
+                    <li class="carousel__elemento"><img class="carousel__img" src="img/collares3.jpg" alt=""></li>
+                    <li class="carousel__elemento"><img class="carousel__img" src="img/Collares1.webp" alt=""></li>
+                </ul>
+            </div>
+            <div class="principal__texto">
+                <h2 class="titulo">Collares</h2>
+                <p class="texto-principal">Nuestros collares complementan tu look con un toque de distinción y clase, perfecto para cualquier ocasión.</p>
+            </div>
+
+        </section>
+        <section class="catalogo">
+            <div class="contenedor">
+                <h2 class="titulo catalogo__titulo">Catalogo</h2>
+                <form action="" class="busqueda">
+                    <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+                </form>
+                <div class="categorias-anillo" id="categorias-anillo">
+                    <a href="#" class="activo">Todos</a>
+                    <a href="#">Mujeres</a>
+                    <a href="#">Hombres</a>
+                    <a href="#">Oro</a>
+                    <a href="#">Plata</a>
+                </div>
+                <div class="grid" id="grid">
+                    <div class="item" data-categoria="hombres" data-etiquetas="mujeres diamante plata"
+                        data-descripcion="1.- Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                        <div class="item__contenido">
+                            <img src="img/AretesHombre.jpeg" class="img__anillo" alt="">
+                            <h3 class="titulo">Collar con Arete</h3>
+                            <p>Collar con Arete de Acerdo Dorado</p>
+                            <span>$ 10000</span>
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="hombres" data-etiquetas="hombres unisex plata"
+                        data-descripcion="2.- Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                        <div class="item__contenido">
+                            <img src="img/AretesHombre1.jpeg" class="img__anillo" alt="">
+                            <h3 class="titulo">Collar con Arete</h3>
+                            <p>Collar con Arete de Acerdo Dorado</p>
+                            <span>$ 10000</span>
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="mujeres" data-etiquetas="mujeres diamante plata"
+                        data-descripcion="3.- Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                        <div class="item__contenido">
+                            <img src="img/CollarMujer.jpg" class="img__anillo" alt="">
+                            <h3 class="titulo">Collar </h3>
+                            <p>Collar de Acerdo Dorado</p>
+                            <span>$ 10000</span>
+                        </div>
+                    </div>
+                    
+                    
+
+
+
+            </div>            
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor">
+            <div class="contenido_footer">
+                <h3>Categorias</h3>
+                <div class="footer_categorias">
+                    <a href="#">Anillos</a>
+                    <a href="#">Aretes</a>
+                    <a href="#">Pulseras</a>
+                    <a href="#">Collares</a>
+                </div>
+            </div>
+            <div class="contenido_footer">
+                <h3>Redes</h3>
+                <div class="footer_redes">
+                    <a href="#"><i class="fab fa-facebook-square"></i></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></i></a>
+                    <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                </div>
+            </div>
+            <div class="contenido_footer">
+                <h3>Copyright &copy - Derechos Reservados</h3>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/45035c67c2.js" crossorigin="anonymous"></script>
+    
+    <script src="js/script_anillo.js"></script>
+    
+</body>
+
+</html>
